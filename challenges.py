@@ -13,7 +13,7 @@ def index():
 # Remember to get rid of the pass statement
 @app.route('/course/<course>')
 def course(course):
-   pass
+   return 'Welcome to {} on localhost:5000/course/{}'.format(course,course)
 
 # Task 3.1
 # Edit the HTML form such that form data is sent to localhost:5000/result using POST method
